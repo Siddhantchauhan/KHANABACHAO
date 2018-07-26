@@ -1,0 +1,125 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body{
+background:url('pic1.jpg');
+margin:0;
+}
+.header a {
+  top:0;
+  float: right;
+  text-align: center;
+  padding:16px;
+  background: rgba(0, 0, 0, 0); /* Black background with transparency */
+  text-decoration: none;
+  font-size: 300%;
+  color:666666	;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.header a:hover {
+  color: 999999;
+}
+
+.header a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align:center;
+
+}
+.footer font{
+float:left;
+right:100px;
+font-size:300%;
+color:666666;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.content{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2); /* Black background with transparency */
+    color: #f1f1f1;
+    tp:30%;
+    left:30%;
+    right:30%;
+    bottom:30%;
+    font-size:300%;
+    color:666666;
+
+}
+.form{  font-family:Arial, Helvetica, sans-serif;
+        position: absolute;
+	    right: 0;
+	    top:30%;
+	    margin: 20px;
+	    max-width: 300px;
+	    padding: 16px;
+	    background-color: white;
+
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.btn {
+    background-color:CC9933;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+</style>
+</head>
+<body>
+<div class='header'>
+<ul>
+<a href='#'>About</a>
+<a href='#'>Home</a>
+<a href='#'>Login</a>
+<a href='#'>Signup</a>
+</ul>
+</div>
+<div class='content'>
+<h3>Soltuion for food wastage</h3>
+</div>
+<div class='form'>
+<h1>Login</h1>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit" class="btn">Login</button>
+
+</div>
+<div class='footer'>
+<font>follow us on:</font>
+<i class="fa fa-facebook-square" style="font-size:48px;color:333399	"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fa fa-instagram" style="font-size:48px;color:FF6699"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fa fa-twitter" style="font-size:48px;color:3399FF"></i>
+
+
+</div>
+</body>
+</html>

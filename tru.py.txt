@@ -1,0 +1,33 @@
+#!F:/python.exe
+import pymysql
+import cgi
+print("Content-Type: text/html")
+print("""
+  """)
+ 
+
+req=cgi.FieldStorage()
+db=pymysql.connect(host='localhost',user='root',password='123',db='hackathon')
+
+cmd=db.cursor()
+name=req.getvalue("t");
+q="insert into try values('{}')".format(name)
+cmd.execute(q)
+db.commit()
+print("fd")
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

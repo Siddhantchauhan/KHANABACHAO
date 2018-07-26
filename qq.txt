@@ -1,0 +1,14 @@
+#!F:/python.exe
+import pymysql
+import cgi
+print("Content-Type: text/html")
+print("""
+  """)
+ 
+
+req=cgi.FieldStorage()
+db=pymysql.connect(host='localhost',user='root',password='123',db='hackathon')
+<form actioin='tru.py'>
+<input type='hidden' name='t' value='nikhil'>
+</form>
+cmd=db.cursor()
